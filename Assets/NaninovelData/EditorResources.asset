@@ -289,3 +289,11 @@ MonoBehaviour:
     Resources: []
   - Id: Movies
     Resources: []
+  - Id: Audio
+    Resources:
+    - name: MusicBackground
+      pathPrefix: Audio
+      guid: 038ea4b0cacc73c4f8fd229315dd40ae
+    - name: Effect
+      pathPrefix: Audio
+      guid: f2a3b89de0c0cc5419a14645c72f071d

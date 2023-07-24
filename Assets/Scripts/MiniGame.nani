@@ -1,5 +1,6 @@
 @showUI MiniGame
 
+@choice handler:ButtonArea button:MapBTN pos:800,450 goto:Map 
 @choice handler:ButtonArea button:CloseBTN pos:680,-380 goto:.Next 
 @stop
 

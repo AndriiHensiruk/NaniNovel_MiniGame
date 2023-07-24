@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/DTT/Minigame Base/Assets/Scenes/DTT Level Select.unity
     guid: 12b509971f91314419189b6ccc01464d
-  - enabled: 1
-    path: Assets/Scenes/MiniGame.unity
-    guid: e5a93a9454555e149ba79fbf2811e25e
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

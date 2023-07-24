@@ -1,5 +1,8 @@
 @back Food time:0
+;Jump button to call up the global map
+@choice handler:ButtonArea button:MapBTN pos:800,450 goto:Map 
 
+;Check for switching between dialogs
 @if !playerMiniGame
 @goto .Dialogue_1
 @elseIf !playerMagicalItem

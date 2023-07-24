@@ -1,8 +1,10 @@
 @back Street time:0
 
+@choice handler:ButtonArea button:MapBTN pos:800,450 goto:Map 
 @choice handler:ButtonArea button:MagicItem pos:300,0 goto:.Next 
 @stop
 #Next
+@sfx Effect
 @set playerMagicalItem=true
 @goto Location_2
 @stop

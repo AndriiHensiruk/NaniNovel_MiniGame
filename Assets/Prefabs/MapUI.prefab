@@ -41,8 +41,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 463, y: -213}
-  m_SizeDelta: {x: 236.8878, y: 268.302}
+  m_AnchoredPosition: {x: 435, y: -181}
+  m_SizeDelta: {x: 152.2874, y: 151.6117}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5930391845578834907
 CanvasRenderer:
@@ -72,7 +72,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: be863e35381ae744ba739441f7f6fe50, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 14723b73385254e4ab587cf4ab3cc248, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -316,7 +316,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 702563e1e647f7740987623b0588ad05, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b8014fef7a7f5d8498fcf2c2e8330786, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -376,7 +376,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scriptName: 
-  scriptText: 
+  scriptText: '@hideUI Map
+
+    @goto Location_1'
   playOnAwake: 0
   disableWaitInput: 0
 --- !u!1 &5545464984165235234
@@ -429,7 +431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scriptName: 
-  scriptText: 
+  scriptText: '@print "And I don''t normally fall asleep over reading."'
   playOnAwake: 0
   disableWaitInput: 0
 --- !u!1 &6150689326069703154
@@ -675,8 +677,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 350, y: 195}
-  m_SizeDelta: {x: 248.6601, y: 310.6017}
+  m_AnchoredPosition: {x: 27.459, y: 111.7896}
+  m_SizeDelta: {x: 152.3906, y: 150.1525}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4879012908733067039
 CanvasRenderer:
@@ -706,7 +708,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 00cc33e83d73fd94e8c289237ccacca1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6595867ddf095db4f92ac7e9044c8457, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -967,7 +969,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scriptName: 
-  scriptText: 
+  scriptText: '@hideUI Map
+
+    @goto Location_2'
   playOnAwake: 0
   disableWaitInput: 0
 --- !u!1 &8156927778623315574
@@ -1020,7 +1024,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scriptName: 
-  scriptText: 
+  scriptText: '@hideUI Map
+
+    @goto Location_3'
   playOnAwake: 0
   disableWaitInput: 0
 --- !u!1 &8887096333457455414
@@ -1063,8 +1069,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -240, y: -22}
-  m_SizeDelta: {x: 246.1822, y: 374.3793}
+  m_AnchoredPosition: {x: -380, y: -5.491}
+  m_SizeDelta: {x: 182.0026, y: 165.19}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3903171715303715470
 CanvasRenderer:
@@ -1094,7 +1100,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 911d2c24f47e0ff44bc8eac1e5bb8b59, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3647b12baa22d50448ff02b0c6a1855b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

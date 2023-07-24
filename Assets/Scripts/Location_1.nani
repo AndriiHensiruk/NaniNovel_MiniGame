@@ -1,6 +1,12 @@
 
 @back Street time:0
+;Jump button to call up the global map
+@choice handler:ButtonArea button:MapBTN pos:800,450 goto:Map
+
 @print {G_playerCoint}
+
+;Check for switching between dialogs
+;
 @if !playerMiniGame
 @goto .FirstQuest
 @else
@@ -43,10 +49,11 @@
 @print "And I don't normally fall asleep over reading." author:Harmony reset:true speed:20
 @hidePrinter Wide
 
-@printer Bubble pos:20,85
+@printer Bubble pos:30,85
 @print "And I don't normally fall asleep over reading." author:{G_playerName} reset:true speed:20
 @hidePrinter Bubble
 
+;Selection output for the player
 @printer Chat
 @print "What's your decision?" reset:true waitInput:false
 @choice " Present a Magical Item Harmony" handler:ChatReply goto:.Choise_Harmony 
