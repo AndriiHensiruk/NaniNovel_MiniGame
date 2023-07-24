@@ -1,0 +1,97 @@
+
+@back Street time:0
+@print {G_playerCoint}
+@if !playerMiniGame
+@goto .FirstQuest
+@else
+@goto .Dialogue
+@endIf
+
+#FirstQuest
+@char {G_playerVisual}.default avatar:{G_playerVisual} pos:10,0 time:0
+@camera offset:0.15,0 time:0.2 wait:false																				
+@char Dina.default avatar:Dina pos:100,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false
+
+@char Dina.smile pos:80,0 scale:1,1,1 time:0.9
+@printer Wide
+@print "And I don't normally fall asleep over reading." author:Dina reset:true speed:20
+@print "And I don't normally fall asleep over reading." author:{G_playerName} reset:true speed:20
+@print "And I don't normally fall asleep over reading." author:Dina reset:true speed:20
+
+@char {G_playerVisual}.happy pos:30,0 time:0.3
+@camera offset:0.15,0 time:0.2 
+@print "And I don't normally fall asleep over reading." author:{G_playerName} reset:true speed:20
+
+@hideAll 
+@hidePrinter Wide
+@goto Location_2 
+@stop
+
+#Dialogue
+@char {G_playerVisual}.default avatar:{G_playerVisual} pos:15,0 time:0
+@camera offset:0.15,0 time:0.2 wait:false
+
+@char Dina.default avatar:Dina pos:90,10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false
+@char Harmony.default avatar:Dina pos:70,10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false
+
+@printer Wide
+@print "And I don't normally fall asleep over reading." author:Dina reset:true speed:20
+@print "And I don't normally fall asleep over reading." author:Harmony reset:true speed:20
+@print "And I don't normally fall asleep over reading." author:Harmony reset:true speed:20
+@hidePrinter Wide
+
+@printer Bubble pos:20,85
+@print "And I don't normally fall asleep over reading." author:{G_playerName} reset:true speed:20
+@hidePrinter Bubble
+
+@printer Chat
+@print "What's your decision?" reset:true waitInput:false
+@choice " Present a Magical Item Harmony" handler:ChatReply goto:.Choise_Harmony 
+@choice "  Present a Magical Item Dina" handler:ChatReply goto:.Choise_Dina 
+@choice "  Keep everything to yourself" handler:ChatReply goto:.Choise_NoOne 
+@stop
+
+#Choise_Harmony
+@printer Wide
+@print "And I don't normally fall asleep over reading." author:{G_playerName} reset:true speed:20
+@char Harmony.smile avatar:Harmony pos:70,10 scale:1,1,1 time:0
+@print "And I don't normally fall asleep over reading." author:Harmony reset:true speed:20
+
+@char {G_playerVisual}.happy pos:30,0 time:0.3
+@char Dina.sad avatar:Dina pos:100,-10 scale:0.9,0.9,1 time:0
+@print "And I don't normally fall asleep over reading." author:{G_playerName} reset:true speed:20
+
+@hideAll 
+@hidePrinter Wide
+@stop
+
+#Choise_Dina
+@printer Wide
+@print "And I don't normally fall asleep over reading." author:{G_playerName} reset:true speed:20
+@char Dina.smile avatar:Dina pos:70,0 scale:1,1,1 time:0
+@print "And I don't normally fall asleep over reading." author:Dina reset:true speed:20
+
+@char {G_playerVisual}.happy pos:30,0 time:0.3
+@char Harmony.sad avatar:Harmony pos:100,-10 scale:0.9,0.9,1 time:0
+@print "And I don't normally fall asleep over reading." author:{G_playerName} reset:true speed:20
+
+@hideAll 
+@hidePrinter Wide
+
+@stop
+
+#Choise_NoOne
+@printer Wide
+@print "And I don't normally fall asleep over reading." author:{G_playerName} reset:true speed:20
+@char {G_playerVisual}.happy pos:30,0 time:0.3
+@char Harmony.sad avatar:Harmony pos:71,-10 scale:0.9,0.9,1 time:0
+@char Dina.sad avatar:Dina pos:90,-10 scale:0.9,0.9,1 time:0
+@print "And I don't normally fall asleep over reading." author:{G_playerName} reset:true speed:20
+@hideAll 
+@hidePrinter Wide
+@stop
+
+@stop

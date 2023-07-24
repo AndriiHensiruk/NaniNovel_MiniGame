@@ -1,0 +1,18 @@
+@back University time:0
+
+
+@set playerMagicalItem=false
+@printer Dialogue
+
+@print "Hello, what is your name?"
+@input G_playerName summary:"Enter your name"
+@stop
+
+@print "Choose your character {G_playerName}"
+
+@choice handler:ButtonArea button:BTN_Mia pos:300,0 goto:Location_1 set:G_playerVisual="Mia" 
+@choice handler:ButtonArea button:BTN_Adam pos:-300,0 goto:Location_1 set:G_playerVisual="Adam"
+@hidePrinter Dialogue
+@stop
+
+@hideAll

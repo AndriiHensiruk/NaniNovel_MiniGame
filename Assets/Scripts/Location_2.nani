@@ -1,0 +1,70 @@
+@back Food time:0
+
+@if !playerMiniGame
+@goto .Dialogue_1
+@elseIf !playerMagicalItem
+@goto .Dialogue_2
+@else 
+@goto .Dialogue_3
+@endIf
+
+#Dialogue_1
+@char {G_playerVisual}.default avatar:{G_playerVisual} pos:10,0 time:0
+@camera offset:0.15,0 time:0.2 wait:false
+
+@char Harmony.default avatar:Dina pos:100,10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false
+@char Harmony.smile pos:80,0 scale:1,1,1 time:0.9
+@printer Wide
+@print "And I don't normally fall asleep over reading." author:Harmony reset:true speed:20
+@print "And I don't normally fall asleep over reading." author:{G_playerName} reset:true speed:20
+@print "And I don't normally fall asleep over reading." author:Harmony reset:true speed:20
+
+@char {G_playerVisual}.happy pos:30,0 time:0.3
+@camera offset:0.15,0 time:0.2 
+@print "And I don't normally fall asleep over reading." author:{G_playerName} reset:true speed:20
+
+@hideAll 
+@hidePrinter Wide
+@goto MiniGame
+@stop
+
+#Dialogue_2
+@char {G_playerVisual}.default avatar:{G_playerVisual} pos:50,0 time:0
+@camera offset:0.15,0 time:0.2 wait:false
+
+
+@printer Wide
+
+@print "And I don't normally fall asleep over reading." author:{G_playerName} reset:true speed:20
+
+
+@char {G_playerVisual}.happy pos:30,0 time:0.3
+@camera offset:0.15,0 time:0.2 
+@print "And I don't normally fall asleep over reading." author:{G_playerName} reset:true speed:20
+
+@hideAll 
+@hidePrinter Wide
+@goto Location_3 
+@stop
+
+#Dialogue_3
+@char {G_playerVisual}.default avatar:{G_playerVisual} pos:50,0 time:0
+@camera offset:0.15,0 time:0.2 wait:false
+
+
+@printer Wide
+
+@print "And I don't normally fall asleep over reading." author:{G_playerName} reset:true speed:20
+
+
+@char {G_playerVisual}.happy pos:30,0 time:0.3
+@camera offset:0.15,0 time:0.2 
+@print "And I don't normally fall asleep over reading." author:{G_playerName} reset:true speed:20
+
+@hideAll 
+@hidePrinter Wide
+@goto Location_1 
+@stop
+
+@stop
