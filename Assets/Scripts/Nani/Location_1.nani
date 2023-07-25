@@ -1,8 +1,10 @@
 
 @back Street time:0
 
-@print {playerCoint}
+@set missionName="TOLKE WITH DINA"
 
+@MapRegulation missionName:{missionName}
+@miniMapOpen
 ;Check for switching between dialogs
 ;
 @if !miniGame
@@ -33,6 +35,7 @@
 @stop
 
 #Dialogue
+@set missionName="GIVE THE ITEM"
 @char {playerVisual}.default avatar:{playerVisual} pos:15,0 time:0
 @camera offset:0.15,0 time:0.2 wait:false
 

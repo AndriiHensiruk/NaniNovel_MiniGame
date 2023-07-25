@@ -1,6 +1,9 @@
 @back Food time:0
 
+@set missionName="TOLKE WITH HARMONY"
 
+@MapRegulation missionName:{missionName}
+@miniMapOpen
 ;Check for switching between dialogs
 @if !miniGame
 @goto .Dialogue_1
@@ -32,6 +35,7 @@
 @stop
 
 #Dialogue_2
+@set missionName="HIKING BY OBJECT"
 @char {G_playerVisual}.default avatar:{G_playerVisual} pos:50,0 time:0
 @camera offset:0.15,0 time:0.2 wait:false
 
@@ -51,6 +55,7 @@
 @stop
 
 #Dialogue_3
+@set missionName=""
 @char {playerVisual}.default avatar:{playerVisual} pos:50,0 time:0
 @camera offset:0.15,0 time:0.2 wait:false
 

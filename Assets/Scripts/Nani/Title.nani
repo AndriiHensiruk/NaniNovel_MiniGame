@@ -1,7 +1,8 @@
 @back University time:0
-@set missionName="CYNTHIA"
+@set missionName="REGISTRATION"
 
-@showUI QuestMapUI
+@MapRegulation missionName:{missionName}
+@miniMapOpen
 ;@stop
 @bgm MusicBackground volume:0.3 loop:true
 

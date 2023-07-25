@@ -1,5 +1,10 @@
 @back Street time:0
 
+@set missionName="TAKE BY OBJECT"
+
+@MapRegulation missionName:{missionName}
+@miniMapOpen
+
 @choice handler:ButtonArea button:MagicItem pos:300,0 goto:.Next 
 @stop
 #Next

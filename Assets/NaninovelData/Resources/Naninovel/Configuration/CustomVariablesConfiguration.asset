@@ -25,5 +25,3 @@ MonoBehaviour:
     value: false
   - name: missionName
     value: '" "'
-  - name: missionName
-    value: '" "'
