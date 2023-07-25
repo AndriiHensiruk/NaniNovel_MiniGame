@@ -1,10 +1,7 @@
 
 @back Street time:0
 
-@set missionName="TOLKE WITH DINA"
 
-@MapRegulation missionName:{missionName}
-@miniMapOpen
 ;Check for switching between dialogs
 ;
 @if !miniGame
@@ -14,6 +11,11 @@
 @endIf
 
 #FirstQuest
+@set missionName="TOLKE WITH DINA"
+
+@MapRegulation missionName:{missionName}
+@questMapOpen
+
 @char {playerVisual}.default avatar:{playerVisual} pos:10,0 time:0
 @camera offset:0.15,0 time:0.2 wait:false																				
 @char Dina.default avatar:Dina pos:100,-10 scale:0.9,0.9,1 time:0
@@ -31,11 +33,15 @@
 
 @hideAll 
 @hidePrinter Wide
+@questMapClose
 @goto Location_2 
 @stop
 
 #Dialogue
 @set missionName="GIVE THE ITEM"
+@MapRegulation missionName:{missionName}
+@questMapOpen
+
 @char {playerVisual}.default avatar:{playerVisual} pos:15,0 time:0
 @camera offset:0.15,0 time:0.2 wait:false
 
@@ -55,7 +61,7 @@
 @hidePrinter Bubble
 
 ;Selection output for the player
-
+@questMapClose
 @choice " Present a Magical Item Harmony"  goto:.Choise_Harmony 
 @choice "  Present a Magical Item Dina"  goto:.Choise_Dina 
 @choice "  Keep everything to yourself"  goto:.Choise_NoOne 

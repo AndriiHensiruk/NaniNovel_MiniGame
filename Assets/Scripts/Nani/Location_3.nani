@@ -3,12 +3,14 @@
 @set missionName="TAKE BY OBJECT"
 
 @MapRegulation missionName:{missionName}
-@miniMapOpen
+@questMapOpen
 
 @choice handler:ButtonArea button:MagicItem pos:300,0 goto:.Next 
+
 @stop
 #Next
 @sfx Effect
+@questMapClose
 @set magicalItem=true
 @goto Location_2
 @stop

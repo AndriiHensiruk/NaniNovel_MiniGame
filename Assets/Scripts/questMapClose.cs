@@ -1,4 +1,3 @@
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,18 +6,18 @@ using Naninovel.Commands;
 
 namespace Naninovel.UI
 {
-    [CommandAlias("miniMapOpen")]
-    public class miniMapOpen : Command
+    [CommandAlias("questMapClose")]
+    public class questMapClose : Command
     {
-        private QuestLog miniMap;
+        private QuestLog questMap;
 
         public override UniTask ExecuteAsync(AsyncToken asyncToken = default)
         {
-            if (miniMap == null)
+            if (questMap == null)
             {
-                miniMap = Engine.GetService<IUIManager>().GetUI<QuestLog>();
+                questMap = Engine.GetService<IUIManager>().GetUI<QuestLog>();
             }
-            miniMap?.Show();
+            questMap?.Hide();
             return UniTask.CompletedTask;
         }
 

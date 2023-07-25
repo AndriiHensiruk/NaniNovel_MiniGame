@@ -3,7 +3,7 @@
 @set missionName="TOLKE WITH HARMONY"
 
 @MapRegulation missionName:{missionName}
-@miniMapOpen
+@questMapOpen
 ;Check for switching between dialogs
 @if !miniGame
 @goto .Dialogue_1
@@ -29,6 +29,7 @@
 @camera offset:0.15,0 time:0.2 
 @print "And I don't normally fall asleep over reading." author:{G_playerName} reset:true speed:20
 
+@questMapClose
 @hideAll 
 @hidePrinter Wide
 @goto MiniGame
@@ -36,6 +37,8 @@
 
 #Dialogue_2
 @set missionName="HIKING BY OBJECT"
+@MapRegulation missionName:{missionName}
+@questMapOpen
 @char {G_playerVisual}.default avatar:{G_playerVisual} pos:50,0 time:0
 @camera offset:0.15,0 time:0.2 wait:false
 
@@ -49,13 +52,14 @@
 @camera offset:0.15,0 time:0.2 
 @print "And I don't normally fall asleep over reading." author:{G_playerName} reset:true speed:20
 
+@questMapClose
 @hideAll 
 @hidePrinter Wide
 @goto Location_3 
 @stop
 
 #Dialogue_3
-@set missionName=""
+
 @char {playerVisual}.default avatar:{playerVisual} pos:50,0 time:0
 @camera offset:0.15,0 time:0.2 wait:false
 

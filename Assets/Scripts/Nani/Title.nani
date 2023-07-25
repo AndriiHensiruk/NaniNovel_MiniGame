@@ -2,7 +2,7 @@
 @set missionName="REGISTRATION"
 
 @MapRegulation missionName:{missionName}
-@miniMapOpen
+@questMapOpen
 ;@stop
 @bgm MusicBackground volume:0.3 loop:true
 
