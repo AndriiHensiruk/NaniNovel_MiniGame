@@ -303,7 +303,7 @@
         &lt;Type&gt;UI&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
-        &lt;Path&gt;MiniMapUI&lt;/Path&gt;
+        &lt;Path&gt;QuestMapUI&lt;/Path&gt;
         &lt;Type&gt;UI&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
@@ -328,6 +328,10 @@
       &lt;/Resource&gt;
       &lt;Resource&gt;
         &lt;Path&gt;Map&lt;/Path&gt;
+        &lt;Type&gt;Scripts&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
+        &lt;Path&gt;LocationManager&lt;/Path&gt;
         &lt;Type&gt;Scripts&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
@@ -485,6 +489,12 @@
       &lt;Constant&gt;
         &lt;Name&gt;Labels/Map&lt;/Name&gt;
         &lt;Values /&gt;
+      &lt;/Constant&gt;
+      &lt;Constant&gt;
+        &lt;Name&gt;Labels/LocationManager&lt;/Name&gt;
+        &lt;Values&gt;
+          &lt;string&gt;globalMap&lt;/string&gt;
+        &lt;/Values&gt;
       &lt;/Constant&gt;
     &lt;/Constants&gt;
     &lt;Variables&gt;
