@@ -172,6 +172,9 @@ MonoBehaviour:
     - name: Map
       pathPrefix: UI
       guid: a3dd20bae24bc7d47b6aa7369d4ec03b
+    - name: MiniMapUI
+      pathPrefix: UI
+      guid: 6dc13d4654e791641bb06f2cb2063d36
   - Id: Scripts
     Resources:
     - name: Title
@@ -192,6 +195,9 @@ MonoBehaviour:
     - name: Map
       pathPrefix: Scripts
       guid: 1d5e34b5d72f0394da77d4f0a5e684f8
+    - name: LocationManager
+      pathPrefix: Scripts
+      guid: 49f09944c261fa142b943a90ca6ec1a0
   - Id: Backgrounds/a4f80cad-4d64-4d8c-be27-b4e44b820ee4
     Resources:
     - name: Room

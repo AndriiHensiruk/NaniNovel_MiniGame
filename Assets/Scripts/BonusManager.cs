@@ -37,7 +37,7 @@ public class BonusManager : MonoBehaviour
         _randomValue = Random.Range(20,30);
         _timeInterval = 0.1f;
         var variableManager = Engine.GetService<ICustomVariableManager>();
-        var _playerCoint = variableManager.GetVariableValue("G_playerCoint");
+        var _playerCoint = variableManager.GetVariableValue("playerCoint");
   
         for (int i = 0; i < _randomValue; i++)
         {
@@ -54,7 +54,7 @@ public class BonusManager : MonoBehaviour
         }
         _finalAngle = Mathf.RoundToInt(gameObject.transform.eulerAngles.z);
         _playerCoint = _finalAngle.ToString();
-        variableManager.SetVariableValue("G_playerCoint", _playerCoint);
+        variableManager.SetVariableValue("playerCoint", _playerCoint);
         Debug.Log(_playerCoint);
         switch (_finalAngle)
         {

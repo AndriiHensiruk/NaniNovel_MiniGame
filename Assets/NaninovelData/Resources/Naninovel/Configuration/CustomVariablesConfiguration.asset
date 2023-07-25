@@ -13,13 +13,17 @@ MonoBehaviour:
   m_Name: CustomVariablesConfiguration
   m_EditorClassIdentifier: 
   PredefinedVariables:
-  - name: G_playerName
+  - name: playerName
     value: '" "'
-  - name: G_playerVisual
+  - name: playerVisual
     value: '" "'
-  - name: G_playerCoint
+  - name: playerCoint
     value: '" "'
-  - name: playerMagicalItem
+  - name: magicalItem
     value: false
-  - name: playerMiniGame
+  - name: miniGame
     value: false
+  - name: missionName
+    value: '" "'
+  - name: missionName
+    value: '" "'

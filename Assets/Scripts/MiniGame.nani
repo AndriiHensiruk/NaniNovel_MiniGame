@@ -1,12 +1,12 @@
 @showUI MiniGame
 
-@choice handler:ButtonArea button:MapBTN pos:800,450 goto:Map 
 @choice handler:ButtonArea button:CloseBTN pos:680,-380 goto:.Next 
 @stop
 
 #Next
 @hideUI MiniGame time:0
-@set playerMiniGame=true
+@set miniGame=true
 @goto Location_2
 @stop
 
+S

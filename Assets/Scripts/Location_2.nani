@@ -1,11 +1,10 @@
 @back Food time:0
-;Jump button to call up the global map
-@choice handler:ButtonArea button:MapBTN pos:800,450 goto:Map 
+
 
 ;Check for switching between dialogs
-@if !playerMiniGame
+@if !miniGame
 @goto .Dialogue_1
-@elseIf !playerMagicalItem
+@elseIf !magicalItem
 @goto .Dialogue_2
 @else 
 @goto .Dialogue_3
@@ -52,18 +51,18 @@
 @stop
 
 #Dialogue_3
-@char {G_playerVisual}.default avatar:{G_playerVisual} pos:50,0 time:0
+@char {playerVisual}.default avatar:{playerVisual} pos:50,0 time:0
 @camera offset:0.15,0 time:0.2 wait:false
 
 
 @printer Wide
 
-@print "And I don't normally fall asleep over reading." author:{G_playerName} reset:true speed:20
+@print "And I don't normally fall asleep over reading." author:{playerName} reset:true speed:20
 
 
-@char {G_playerVisual}.happy pos:30,0 time:0.3
+@char {playerVisual}.happy pos:30,0 time:0.3
 @camera offset:0.15,0 time:0.2 
-@print "And I don't normally fall asleep over reading." author:{G_playerName} reset:true speed:20
+@print "And I don't normally fall asleep over reading." author:{playerName} reset:true speed:20
 
 @hideAll 
 @hidePrinter Wide

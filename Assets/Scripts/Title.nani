@@ -1,17 +1,20 @@
 @back University time:0
+@set missionName="CYNTHIA"
 
+@showUI QuestMapUI
+;@stop
 @bgm MusicBackground volume:0.3 loop:true
 
 @printer Dialogue
 ;Entering the player's name
 @print "Hello, what is your name?"
-@input G_playerName summary:"Enter your name"
+@input playerName summary:"Enter your name"
 @stop
 
-@print "Choose your character {G_playerName}"
+@print "Choose your character {playerName}"
 ;Character selection is designed in button format
-@choice handler:ButtonArea button:BTN_Mia pos:300,0 goto:Location_1 set:G_playerVisual="Mia" 
-@choice handler:ButtonArea button:BTN_Adam pos:-300,0 goto:Location_1 set:G_playerVisual="Adam"
+@choice handler:ButtonArea button:BTN_Mia pos:300,0 goto:Location_1 set:playerVisual="Mia" 
+@choice handler:ButtonArea button:BTN_Adam pos:-300,0 goto:Location_1 set:playerVisual="Adam"
 @hidePrinter Dialogue
 @stop
 
