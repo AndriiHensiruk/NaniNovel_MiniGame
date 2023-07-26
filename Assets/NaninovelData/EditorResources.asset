@@ -202,95 +202,95 @@ MonoBehaviour:
     Resources:
     - name: Room
       pathPrefix: Backgrounds/MainBackground
-      guid: 470cd9fa3aa382a4eb48c9771d78b88c
+      guid: e2b2e86b4f019214dabc3c96fd31f4d8
     - name: Food
       pathPrefix: Backgrounds/MainBackground
-      guid: 4bb0e21382a6434448b3566a6c375602
+      guid: 65950bcd60e845540b168ac580c31207
     - name: Street
       pathPrefix: Backgrounds/MainBackground
-      guid: 99e98b265e418b74f983f4108202ccc1
+      guid: 30822a0d572ca0d4ba4373e8f85ea2b7
     - name: University
       pathPrefix: Backgrounds/MainBackground
-      guid: c051671b7a626bf40a76c0c054b6080d
+      guid: 307ff5285600ed7418e1d25a2f27d119
   - Id: Characters/1a911b77-8202-4562-b044-a06582a86cc9
     Resources:
     - name: angry
       pathPrefix: Characters/Mia
-      guid: ff811017e335f9349b455782456301a3
+      guid: dd238f5bf21b95c48b9ff0c1fe3b0ca2
     - name: close_eyes
       pathPrefix: Characters/Mia
-      guid: 8b36fbe51e91522428f20bd529bf2c6b
+      guid: dd238f5bf21b95c48b9ff0c1fe3b0ca2
     - name: happy
       pathPrefix: Characters/Mia
-      guid: 5ab2bbda81987104cbdc5ad8c2c1f1ab
+      guid: dd238f5bf21b95c48b9ff0c1fe3b0ca2
     - name: sad
       pathPrefix: Characters/Mia
-      guid: 417acfe3746e3eb4cb5c761c59f109f4
+      guid: dd238f5bf21b95c48b9ff0c1fe3b0ca2
     - name: surprise
       pathPrefix: Characters/Mia
-      guid: bcfd36aed1cb4af4dbf2b766901da2b2
+      guid: dd238f5bf21b95c48b9ff0c1fe3b0ca2
     - name: default
       pathPrefix: Characters/Mia
-      guid: 91243bb74869a164190a91f5368f8e65
+      guid: dd238f5bf21b95c48b9ff0c1fe3b0ca2
   - Id: Characters/78c4d9bd-2a64-4d4e-910e-44d0b8e981d4
     Resources:
     - name: angry
       pathPrefix: Characters/Adam
-      guid: c825852823e03d74ca0852d251e8313c
+      guid: ef1fc61fd60acdc46bdc9815cb921031
     - name: happy
       pathPrefix: Characters/Adam
-      guid: e911867728bbc6d4fb2fceeb69e843e5
+      guid: ef1fc61fd60acdc46bdc9815cb921031
     - name: skeptical
       pathPrefix: Characters/Adam
-      guid: e9e9a588c5fe13a4e95b4b337856637d
+      guid: ef1fc61fd60acdc46bdc9815cb921031
     - name: surprised
       pathPrefix: Characters/Adam
-      guid: 346eb29026badc648abc789359ab4610
+      guid: ef1fc61fd60acdc46bdc9815cb921031
     - name: default
       pathPrefix: Characters/Adam
-      guid: 3e64356f49a360e43ac38529a9fefa18
+      guid: ef1fc61fd60acdc46bdc9815cb921031
   - Id: CharacterAvatars
     Resources:
     - name: Mia
       pathPrefix: CharacterAvatars
-      guid: 3779bb5e30062ea4286a4e33a46a138c
+      guid: dd238f5bf21b95c48b9ff0c1fe3b0ca2
     - name: Adam
       pathPrefix: CharacterAvatars
-      guid: 3e64356f49a360e43ac38529a9fefa18
+      guid: ef1fc61fd60acdc46bdc9815cb921031
     - name: Harmony
       pathPrefix: CharacterAvatars
-      guid: 888d24039863be2499e4cc49e83d520a
+      guid: c1af461de9473ba42b9c644d87ba7cf2
     - name: Dina
       pathPrefix: CharacterAvatars
-      guid: 7962b425980ba4a4198e874f10fb5956
+      guid: 2bf1cbe1590519f44977fdb926213427
   - Id: Characters/ebd666ad-4635-4fd3-92d9-1af14d3850dc
     Resources:
     - name: sad
       pathPrefix: Characters/Dina
-      guid: 697f589993087604bb36fc67ca96e503
+      guid: 2bf1cbe1590519f44977fdb926213427
     - name: smile
       pathPrefix: Characters/Dina
-      guid: eba61a2ce5d07944687c4c5a82f2ecc3
+      guid: 2bf1cbe1590519f44977fdb926213427
     - name: surprise
       pathPrefix: Characters/Dina
-      guid: acab50c7e7c492447985d2f3d7d04d7b
+      guid: 2bf1cbe1590519f44977fdb926213427
     - name: default
       pathPrefix: Characters/Dina
-      guid: 7962b425980ba4a4198e874f10fb5956
+      guid: 2bf1cbe1590519f44977fdb926213427
   - Id: Characters/a69269ec-3108-4aff-9152-3df032fa994c
     Resources:
     - name: smile
       pathPrefix: Characters/Harmony
-      guid: c09a6e8afa0689b458fa0ae2ef1948a2
+      guid: c1af461de9473ba42b9c644d87ba7cf2
     - name: sad
       pathPrefix: Characters/Harmony
-      guid: ee07da18a38e05e4e83728feccbe8305
+      guid: c1af461de9473ba42b9c644d87ba7cf2
     - name: surprise
       pathPrefix: Characters/Harmony
-      guid: 6209f27e39465c4479ab489c993d1051
+      guid: c1af461de9473ba42b9c644d87ba7cf2
     - name: default
       pathPrefix: Characters/Harmony
-      guid: 888d24039863be2499e4cc49e83d520a
+      guid: c1af461de9473ba42b9c644d87ba7cf2
   - Id: Unlockables
     Resources: []
   - Id: Movies
@@ -299,7 +299,7 @@ MonoBehaviour:
     Resources:
     - name: MusicBackground
       pathPrefix: Audio
-      guid: 038ea4b0cacc73c4f8fd229315dd40ae
+      guid: 1acc49fc103a2ed45b027854a7d8baf8
     - name: Effect
       pathPrefix: Audio
       guid: f2a3b89de0c0cc5419a14645c72f071d

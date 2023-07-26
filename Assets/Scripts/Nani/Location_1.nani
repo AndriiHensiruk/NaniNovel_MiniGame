@@ -16,18 +16,18 @@
 @MapRegulation missionName:{missionName}
 @questMapOpen
 
-@char {playerVisual}.default avatar:{playerVisual} pos:10,0 time:0
+@char {playerVisual}.default avatar:{playerVisual} pos:10,-20 scale:0.9,0.9,1 time:0
 @camera offset:0.15,0 time:0.2 wait:false																				
-@char Dina.default avatar:Dina pos:100,-10 scale:0.9,0.9,1 time:0
+@char Dina.default avatar:Dina pos:100,-40 scale:0.9,0.9,1 time:0
 @camera offset:0.15,0 time:0.2 wait:false
 
-@char Dina.smile pos:80,0 scale:1,1,1 time:0.9
+@char Dina.smile pos:80,-40 scale:1,1,1 time:0.9
 @printer Wide
 @print "And I don't normally fall asleep over reading." author:Dina reset:true speed:20
 @print "And I don't normally fall asleep over reading." author:{playerName} reset:true speed:20
 @print "And I don't normally fall asleep over reading." author:Dina reset:true speed:20
 
-@char {playerVisual}.happy pos:30,0 time:0.3
+@char {playerVisual}.happy pos:20,-10 time:0.3
 @camera offset:0.15,0 time:0.2 
 @print "And I don't normally fall asleep over reading." author:{playerName} reset:true speed:20
 
@@ -42,12 +42,12 @@
 @MapRegulation missionName:{missionName}
 @questMapOpen
 
-@char {playerVisual}.default avatar:{playerVisual} pos:15,0 time:0
+@char {playerVisual}.default avatar:{playerVisual} pos:15,-10 time:0
 @camera offset:0.15,0 time:0.2 wait:false
 
-@char Dina.default avatar:Dina pos:90,10 scale:0.9,0.9,1 time:0
+@char Dina.default avatar:Dina pos:90,-40 scale:0.9,0.9,1 time:0
 @camera offset:0.15,0 time:0.2 wait:false
-@char Harmony.default avatar:Dina pos:70,10 scale:0.9,0.9,1 time:0
+@char Harmony.default avatar:Dina pos:70,-10 scale:0.9,0.9,1 time:0
 @camera offset:0.15,0 time:0.2 wait:false
 
 @printer Wide
@@ -70,11 +70,11 @@
 #Choise_Harmony
 @printer Wide
 @print "And I don't normally fall asleep over reading." author:{playerName} reset:true speed:20
-@char Harmony.smile avatar:Harmony pos:70,10 scale:1,1,1 time:0
+@char Harmony.smile avatar:Harmony pos:70,10 scale:1,1,1 look:Left time:0
 @print "And I don't normally fall asleep over reading." author:Harmony reset:true speed:20
 
-@char {playerVisual}.happy pos:30,0 time:0.3
-@char Dina.sad avatar:Dina pos:100,-10 scale:0.9,0.9,1 time:0
+@char {playerVisual}.happy pos:30,-10 time:0.3
+@char Dina.sad avatar:Dina pos:100,-40 scale:0.9,0.9,1 time:0
 @print "And I don't normally fall asleep over reading." author:{playerName} reset:true speed:20
 
 @hideAll 
@@ -84,10 +84,10 @@
 #Choise_Dina
 @printer Wide
 @print "And I don't normally fall asleep over reading." author:{playerName} reset:true speed:20
-@char Dina.smile avatar:Dina pos:70,0 scale:1,1,1 time:0
+@char Dina.smile avatar:Dina pos:70,-40 scale:1,1,1 time:0
 @print "And I don't normally fall asleep over reading." author:Dina reset:true speed:20
 
-@char {playerVisual}.happy pos:30,0 time:0.3
+@char {playerVisual}.happy pos:20,-10 time:0.3
 @char Harmony.sad avatar:Harmony pos:100,-10 scale:0.9,0.9,1 time:0
 @print "And I don't normally fall asleep over reading." author:{playerName} reset:true speed:20
 
@@ -99,9 +99,9 @@
 #Choise_NoOne
 @printer Wide
 @print "And I don't normally fall asleep over reading." author:{playerName} reset:true speed:20
-@char {playerVisual}.happy pos:30,0 time:0.3
-@char Harmony.sad avatar:Harmony pos:71,-10 scale:0.9,0.9,1 time:0
-@char Dina.sad avatar:Dina pos:90,-10 scale:0.9,0.9,1 time:0
+@char {playerVisual}.happy pos:20,-10 time:0.3
+@char Harmony.sad avatar:Harmony pos:71,-10 scale:0.9,0.9,1 look:Left time:0
+@char Dina.sad avatar:Dina pos:90,-40 scale:0.9,0.9,1 time:0
 @print "And I don't normally fall asleep over reading." author:{playerName} reset:true speed:20
 @hideAll 
 @hidePrinter Wide

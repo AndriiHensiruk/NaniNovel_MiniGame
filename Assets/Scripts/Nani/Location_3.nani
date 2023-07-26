@@ -5,6 +5,8 @@
 @MapRegulation missionName:{missionName}
 @questMapOpen
 
+@char {G_playerVisual}.default avatar:{G_playerVisual} pos:20,-10 scale:0.9,0.9,1 time:0
+
 @choice handler:ButtonArea button:MagicItem pos:300,0 goto:.Next 
 
 @stop

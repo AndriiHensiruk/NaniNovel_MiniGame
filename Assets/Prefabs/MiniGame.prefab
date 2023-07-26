@@ -667,7 +667,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6f38d1cc7df1dd64eac231d0e36d984e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f7f75c27e4f8d6a469c69335cfd3acbd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1307,4 +1307,3 @@ MonoBehaviour:
   firstWheel: {fileID: 1180961839347786156}
   secondWheel: {fileID: 6764633135752672772}
   thirdWheel: {fileID: 3036100761518287990}
-  closeButton: {fileID: 0}

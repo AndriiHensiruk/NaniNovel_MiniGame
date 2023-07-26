@@ -14,7 +14,7 @@
 @endIf
 
 #Dialogue_1
-@char {G_playerVisual}.default avatar:{G_playerVisual} pos:10,0 time:0
+@char {G_playerVisual}.default avatar:{G_playerVisual} pos:10,-20 scale:0.9,0.9,1 time:0
 @camera offset:0.15,0 time:0.2 wait:false
 
 @char Harmony.default avatar:Dina pos:100,10 scale:0.9,0.9,1 time:0
@@ -25,7 +25,7 @@
 @print "And I don't normally fall asleep over reading." author:{G_playerName} reset:true speed:20
 @print "And I don't normally fall asleep over reading." author:Harmony reset:true speed:20
 
-@char {G_playerVisual}.happy pos:30,0 time:0.3
+@char {G_playerVisual}.happy pos:10,-20 scale:0.9,0.9,1 time:0.3
 @camera offset:0.15,0 time:0.2 
 @print "And I don't normally fall asleep over reading." author:{G_playerName} reset:true speed:20
 
@@ -39,7 +39,7 @@
 @set missionName="HIKING BY OBJECT"
 @MapRegulation missionName:{missionName}
 @questMapOpen
-@char {G_playerVisual}.default avatar:{G_playerVisual} pos:50,0 time:0
+@char {G_playerVisual}.default avatar:{G_playerVisual} pos:20,-10 scale:0.9,0.9,1 time:0
 @camera offset:0.15,0 time:0.2 wait:false
 
 
@@ -48,7 +48,7 @@
 @print "And I don't normally fall asleep over reading." author:{G_playerName} reset:true speed:20
 
 
-@char {G_playerVisual}.happy pos:30,0 time:0.3
+@char {G_playerVisual}.happy pos:20,-10 time:0.3
 @camera offset:0.15,0 time:0.2 
 @print "And I don't normally fall asleep over reading." author:{G_playerName} reset:true speed:20
 
@@ -60,7 +60,7 @@
 
 #Dialogue_3
 
-@char {playerVisual}.default avatar:{playerVisual} pos:50,0 time:0
+@char {playerVisual}.default avatar:{playerVisual} pos:50,-10 time:0
 @camera offset:0.15,0 time:0.2 wait:false
 
 
@@ -69,7 +69,7 @@
 @print "And I don't normally fall asleep over reading." author:{playerName} reset:true speed:20
 
 
-@char {playerVisual}.happy pos:30,0 time:0.3
+@char {playerVisual}.happy pos:30,-10 time:0.3
 @camera offset:0.15,0 time:0.2 
 @print "And I don't normally fall asleep over reading." author:{playerName} reset:true speed:20
 

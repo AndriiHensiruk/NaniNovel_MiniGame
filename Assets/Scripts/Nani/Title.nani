@@ -1,10 +1,11 @@
 @back University time:0
+@bgm MusicBackground volume:0.3 loop:true
 @set missionName="REGISTRATION"
 
 @MapRegulation missionName:{missionName}
 @questMapOpen
 ;@stop
-@bgm MusicBackground volume:0.3 loop:true
+
 
 @printer Dialogue
 ;Entering the player's name
@@ -14,7 +15,7 @@
 
 @print "Choose your character {playerName}"
 ;Character selection is designed in button format
-@choice handler:ButtonArea button:BTN_Mia pos:300,0 goto:Location_1 set:playerVisual="Mia" 
+@choice handler:ButtonArea button:BTN_Mia pos:300,0 goto:Location_1 set:playerVisual="Mia"
 @choice handler:ButtonArea button:BTN_Adam pos:-300,0 goto:Location_1 set:playerVisual="Adam"
 @hidePrinter Dialogue
 @stop
